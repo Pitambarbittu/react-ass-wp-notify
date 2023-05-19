@@ -1,7 +1,7 @@
 // import React from "react";
 import React, { useEffect, useState } from 'react';
 
-const UseEffect = () => {
+const Hooks = () => {
     const [count, setCount] = useState(0)
     
 useEffect(()=>{
@@ -24,7 +24,7 @@ function updateState1(){
         <button style={{ cursor:"pointer",backgroundColor:"red",margin:"10px",borderRadius:"8px",width:"10em", padding:"10px", fontSize:"15px"}} onClick={updateState1} >dec</button>
         <button style={{cursor:"pointer",backgroundColor:"#35f435",borderRadius:"8px",margin:"10px",width:"10em", padding:"10px", fontSize:"15px"}} onClick={updateState}>inc</button>
 
-{/* <h3 style={{color:"white"}}>👉what is useState hook <br />
+<h3 style={{color:"white"}}>👉what is useState hook <br />
 The useState hook is a special function that takes the initial state as an argument and returns an array of two entries.
   </h3>
   <h3 style={{color:"white"}}>👉what is useefect hook? <br />
@@ -39,11 +39,11 @@ The useState hook is a special function that takes the initial state as an argum
   useMemo used for render only one state</h3> <br />
   <h3 style={{color:"white"}}>👉what is useCallback hook? <br />
   usecallback returns memorized function
-  memo returns memorized value only</h3> */}
+  memo returns memorized value only</h3>
 
 
     </div>
   )
 }
 
-export default UseEffect
+export default Hooks
